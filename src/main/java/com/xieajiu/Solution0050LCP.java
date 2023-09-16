@@ -1,7 +1,5 @@
 package com.xieajiu;
 
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * <a href="https://leetcode.cn/problems/WHnhjV/description/">LCP50. 宝石补给</a>

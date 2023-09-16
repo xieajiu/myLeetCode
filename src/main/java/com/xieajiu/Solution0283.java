@@ -1,7 +1,5 @@
 package com.xieajiu;
 
-import javax.print.attribute.EnumSyntax;
-import java.util.Arrays;
 
 /**
  * <a href="https://leetcode.cn/problems/single-number/">283. 移动零</a>
