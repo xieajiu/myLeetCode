@@ -1,7 +1,5 @@
 package com.xieajiu;
 
-import java.util.Arrays;
-
 /**
  * <a href="https://leetcode.cn/problems/multiply-strings/description/">43. 字符串相乘</a><br />
  * 给定两个以字符串形式表示的非负整数 num1 和 num2，返回 num1 和 num2 的乘积，它们的乘积也表示为字符串形式。<br />
@@ -20,9 +18,7 @@ public class Solution0043 {
         if ("0".equals(num1) || "0".equals(num2)) {
             return "0";
         }
-        int numInt1 = 0;
-        int numInt2 = 0;
-        int tempResult = 0;
+        int numInt1, numInt2, tempResult;
         int[] result = new int[num1.length() + num2.length()];
         for (int i = num1.length() - 1; i >=0; i--) {
             numInt1 = num1.charAt(i) - '0';
